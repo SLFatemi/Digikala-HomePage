@@ -207,8 +207,10 @@ header {
     padding: 1.6rem 2.4rem 1.6rem;
     margin: 0 auto;
     display: flex;
+    gap: 2.4rem;
     justify-content: space-between;
     align-items: center;
+    overflow-x: scroll;
 }
 
 .stories-story {
