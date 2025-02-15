@@ -23,6 +23,7 @@ body {
 
 header {
     position: sticky;
+    z-index: 1;
     top: 0;
     right: 0;
     box-shadow: 0 0.05rem 0.5rem rgba(0, 0, 0, 0.2);
@@ -203,7 +204,7 @@ header {
 /* ///////////////////////////////// STORIES ///////////////////////////////// */
 .section-stories {
     max-width: 90vw;
-    padding: 1.6rem 2.4rem 0.6rem;
+    padding: 1.6rem 2.4rem 1.6rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -229,6 +230,13 @@ header {
     border: 3px solid #A4469B;
     padding: 2px;
     height: 8.6rem;
+}
+
+/* ///////////////////////////////// SLIDER ///////////////////////////////// */
+.slider-img {
+    z-index: -1;
+    width: 125vw;
+    transform: translateX(10%);
 }
 
 
