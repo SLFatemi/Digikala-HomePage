@@ -233,10 +233,16 @@ header {
 }
 
 /* ///////////////////////////////// SLIDER ///////////////////////////////// */
+.section-slider {
+    overflow-x: hidden;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 .slider-img {
     z-index: -1;
-    width: 125vw;
-    transform: translateX(10%);
+    min-width: 100%;
 }
 
 
