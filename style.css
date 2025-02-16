@@ -430,7 +430,7 @@ header {
 
 .section-discount {
     max-width: 90vw;
-    padding: 1.6rem 1.2rem 0;
+    padding: 1.6rem 1.2rem 1.6rem;
     margin: 0 auto;
     display: grid;
     row-gap: 1.2rem;
@@ -532,6 +532,20 @@ header {
     display: flex;
     gap: 1.2rem;
     align-items: center;
+}
+
+/* ///////////////////////////////// DISCOUNT--BIG ///////////////////////////////// */
+
+.section-discount-big {
+    max-width: 90vw;
+    padding: 1.6rem 2.4rem 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount-img--big {
+    width: 66rem;
 }
 
 /* ///////////////////////////////// CATEGORY_MAIN ///////////////////////////////// */
