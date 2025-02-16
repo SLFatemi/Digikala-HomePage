@@ -425,3 +425,104 @@ header {
     margin-top: -1.5rem;
     /* ?????????????????? ??????????????????*/
 }
+
+/* ///////////////////////////////// DISCOUNT ///////////////////////////////// */
+
+.section-discount {
+    max-width: 90vw;
+    padding: 1.6rem 1.2rem 1.6rem;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 1.2rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 0.45fr 1fr;
+    justify-items: center;
+}
+
+.discount-img {
+    width: calc(90vw / 4 - 24px);
+    border-radius: 16px;
+}
+
+.discount-fresh {
+    grid-column: 1 / -1;
+    border-radius: 16px;
+    background-color: #ECEFEE;
+    justify-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.discount-fresh-right {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.discount-fresh-left {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.discount-fresh-offer-img {
+    width: 24rem;
+}
+
+.discount-fresh-off {
+    font-size: 1.4rem;
+    color: #fff;
+    border-radius: 16px;
+    font-weight: 600;
+    background-color: #029A49;
+    padding: 0.6rem 1.2rem;
+    align-self: center;
+}
+
+.discount-fresh-img {
+    width: 6.4rem;
+}
+
+.discount-fresh-product {
+    position: relative;
+}
+
+.discount-fresh-product-img {
+    display: inline-block;
+    width: 7.2rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.discount-fresh-product::after {
+    content: "71%";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ED1844;
+    color: white;
+    padding: 0.2rem 0.8rem;
+    font-weight: 600;
+    border-radius: 100px;
+    font-size: 1.2rem;
+}
+
+.discount-fresh-btn {
+    background-color: #fff;
+    border: none;
+    font-family: inherit;
+    color: #029A49;
+    font-weight: 600;
+    font-size: 1.3rem;
+    border-radius: 146px;
+    padding: 1.2rem 2rem;
+}
+
+.discount-fresh-btn-text {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
