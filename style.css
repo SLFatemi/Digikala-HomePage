@@ -435,13 +435,19 @@ header {
     display: grid;
     row-gap: 1.2rem;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 0.45fr 1fr;
+    grid-template-rows: 1fr 0.7fr 1fr;
     justify-items: center;
 }
 
 .discount-img {
     width: calc(90vw / 4 - 24px);
     border-radius: 16px;
+}
+
+
+.discount {
+    display: flex;
+    align-items: center;
 }
 
 .discount-fresh {
@@ -452,6 +458,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 0 0.8rem;
 }
 
 .discount-fresh-right {
