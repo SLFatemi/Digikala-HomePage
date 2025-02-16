@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "DevelopixIRANYekanX";
+    src: url('assets/fonts/IRANYekanX/woff2/IRANYekanXVF.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,12 +19,9 @@ html {
     overflow-x: hidden;
     font-size: 62.5%;
     direction: rtl;
-    font-family: "IRANYekanXFaNum", sans-serif;
+    font-family: DevelopixIRANYekanX, sans-serif;
 }
 
-body {
-    height: 200vh;
-}
 
 /* ///////////////////////////////// BANNER ///////////////////////////////// */
 
