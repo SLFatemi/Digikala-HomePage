@@ -29,6 +29,10 @@
     outline: none;
 }
 
+main {
+    border-bottom: 1px solid #eaeaea;
+}
+
 html {
     overflow-x: hidden;
     font-size: 62.5%;
@@ -897,4 +901,62 @@ header {
     margin-right: 12rem;
     margin-top: -1rem;
     /* ?????????????????? ??????????????????*/
+}
+
+/* ///////////////////////////////// MAG ///////////////////////////////// */
+.section-mag {
+    max-width: 86.8vw;
+    padding: 2.4rem 0;
+    margin: 1rem auto 2.4rem;
+}
+
+.mag-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.4rem;
+}
+
+.mag-articles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mag-heading-text {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.mag-article {
+    padding-bottom: 1.8rem;
+    border: 1px solid #E0E0E2;
+    display: flex;
+    flex-basis: min-content;
+    border-radius: 9px;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.mag-article-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding: 0 1.2rem;
+}
+
+.mag-article-img {
+    width: 32.3rem;
+}
+
+.mag-showall {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    &:link, &:visited {
+        text-decoration: none;
+        color: #19BFD3;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
 }
