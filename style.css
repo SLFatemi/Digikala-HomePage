@@ -667,6 +667,10 @@ header {
     font-weight: 500;
     text-align: center;
     margin-bottom: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
 }
 
 .popular-brand-img {
@@ -686,7 +690,7 @@ header {
 
 .section-pref {
     max-width: 86.8vw;
-    padding: 2.4rem 0 1.2rem;
+    padding: 2.4rem 0 2.4rem;
     margin: 1rem auto 0;
     background-color: #fff;
     border: 1px solid #E0E0E2;
@@ -744,4 +748,58 @@ header {
         font-size: 1.2rem;
         font-weight: 500;
     }
+}
+
+
+/* ///////////////////////////////// MOST SALES ///////////////////////////////// */
+
+.section-best-selling {
+    max-width: 86.8vw;
+    padding: 2.4rem 0 1.2rem;
+    margin: 1rem auto 0;
+    background-color: #fff;
+    border: 1px solid #E0E0E2;
+    border-radius: 16px;
+    overflow-x: scroll;
+}
+
+.best-selling-products {
+    display: grid;
+    overflow-x: scroll;
+    padding: 0 1.2rem;
+    gap: 1.2rem;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 30rem);
+}
+
+.best-selling-product {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.best-selling-product-img {
+    width: 8.6rem;
+}
+
+.best-selling-product-number {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #19BFD3;
+}
+
+.best-selling-product-name {
+    font-size: 1.2rem;
+    color: #424750;
+}
+
+.best-selling-heading {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
 }
