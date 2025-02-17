@@ -916,6 +916,7 @@ header {
 .mag-heading {
     display: flex;
     justify-content: space-between;
+    padding: 0 2.2rem;
     margin-bottom: 2.4rem;
 }
 
@@ -963,3 +964,247 @@ header {
         font-weight: 600;
     }
 }
+
+
+/* ///////////////////////////////// FOOTER ///////////////////////////////// */
+.section-footer {
+    padding: 4.8rem 3.2rem 0;
+}
+
+.footer-logo-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-btn {
+    display: flex;
+    align-items: center;
+    border: 1px #E0E0E2 solid;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    gap: 1.2rem;
+    color: #81858B;
+    border-radius: 8px;
+    font-family: inherit;
+}
+
+.footer-btn-icon {
+    font-size: 1.8rem;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.footer-logo-text {
+    display: flex;
+    gap: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.footer-logo-img {
+    width: 195px;
+    align-self: start;
+}
+
+.footer-product-policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.footer-product-policy-text {
+    font-size: 1.1rem;
+}
+
+.footer-products-policy {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-columns {
+    margin-top: 4.6rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-column-text {
+    font-size: 1.5rem;
+    color: #81858B;
+    line-height: 3.6rem;
+    font-weight: 400;
+}
+
+.footer-column-text--heading {
+    color: #424750;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.footer-column-last {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-columns-logos {
+    display: flex;
+    gap: 5rem;
+    color: #A1A3A8;
+}
+
+.footer-columns-logo {
+    font-size: 3.2rem;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column-email {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    background-color: #F0F0F1;
+    border-radius: 6px;
+    padding: 0 1.6rem;
+}
+
+.footer-column-email-btn {
+    display: flex;
+    margin-top: -1.4rem;
+    gap: 1.2rem;
+}
+
+.footer-column-email-input {
+    border: none;
+    font-family: inherit;
+    font-size: 1.5rem;
+    background-color: #F0F0F1;
+    justify-self: end;
+}
+
+.footer-column-btn {
+    background-color: #e3e3e3;
+    color: #fff;
+    font-size: 1.4rem;
+    width: 5.4rem;
+    border-radius: 6px;
+    border: none;
+    font-family: inherit;
+    padding: 1.4rem;
+}
+
+.footer-appAd-text {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.footer-contact {
+    border-bottom: 1px solid #E0E0E2;
+}
+
+.footer-appAd {
+    background-color: #3c4b6d;
+    margin: 4rem 0;
+    padding: 1.2rem 2rem;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.footer-appAd-btns {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.footer-appAd-btn-more {
+    padding: 0.2rem;
+    background-color: #fff;
+    color: #3c4b6d;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.footer-appAd-logo {
+    width: 4.4rem;
+}
+
+.footer-appAd-info {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.footer-trust {
+    margin: 4rem;
+    padding-bottom: 4rem;
+    display: grid;
+    border-bottom: 1px solid #E0E0E2;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 4rem;
+}
+
+.footer-trust-info-header {
+    font-size: 2.2rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 1.2rem;
+    color: #6F666D;
+}
+
+.footer-trust-info-text {
+    font-size: 1.2rem;
+    color: #81858B;
+    line-height: 2;
+}
+
+.footer-trust-logos {
+    display: flex;
+    align-items: center;
+    align-self: start;
+    justify-self: end;
+    gap: 1.2rem;
+}
+
+.footer-trust-logo {
+    width: 11.5rem;
+    padding: 2rem;
+    border: 1px solid #E0E0E2;
+    border-radius: 8px;
+}
+
+.footer-copyright {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: #81858B;
+    margin-bottom: 3.4rem;
+}
+
+/*.footer-digilogos {*/
+/*    margin-top: 4rem;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    max-width: 1676px;*/
+/*}*/
+
+/*.footer-digilogo {*/
+/*    background-color: #ececec;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    height: 8rem;*/
+/*}*/
