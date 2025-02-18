@@ -36,7 +36,7 @@ main {
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    font-size: 62.5%;
+    font-size: 10px;
     direction: rtl;
     font-family: DevelopixIRANYekanX, sans-serif;
 }
@@ -276,7 +276,7 @@ header {
 
 /* ///////////////////////////////// STORIES ///////////////////////////////// */
 .section-stories {
-    max-width: 133.5rem;
+    max-width: 1335px;
     padding: 1.6rem 2.4rem 1.6rem;
     margin: 0 auto;
     display: flex;
@@ -319,12 +319,12 @@ header {
 
 .slider-img {
     z-index: -1;
-    max-width: 210rem;
+    max-width: 2100px;
 }
 
 /* ///////////////////////////////// PROMOTION ///////////////////////////////// */
 .section-promotion {
-    max-width: 133.5rem;
+    max-width: 1335px;
     padding: 1.6rem 2.4rem 1.6rem;
     margin: 2.4rem auto;
     display: flex;
@@ -365,7 +365,7 @@ header {
 
 /* ///////////////////////////////// AMAZING ///////////////////////////////// */
 .section-amazing {
-    max-width: 133.5rem;
+    max-width: 1335px;
     padding: 1.6rem 0 1.6rem;
     margin: 0 auto;
     background: #D42D4E;
@@ -503,7 +503,7 @@ header {
 /* ///////////////////////////////// DISCOUNT ///////////////////////////////// */
 
 .section-discount--small {
-    max-width: 133.5rem;
+    max-width: 1335px;
     padding: 1.6rem 0 1.6rem;
     margin: 0 auto;
     display: grid;
@@ -617,7 +617,7 @@ header {
 /* ///////////////////////////////// DISCOUNT--BIG ///////////////////////////////// */
 
 .section-discount-big {
-    max-width: 133.5rem;
+    max-width: 1335px;
     padding: 1.6rem 0 0;
     margin: 0 auto;
     display: flex;
@@ -625,12 +625,12 @@ header {
 }
 
 .discount-img--big {
-    max-width: 65.5rem;
+    max-width: 655px;
 }
 
 /* ///////////////////////////////// DISCOUNT--BIGGER ///////////////////////////////// */
 .section-discount-bigger {
-    max-width: 133.5rem;
+    max-width: 1335px;
     padding: 1.6rem 0 0;
     margin: 0 auto;
     display: flex;
@@ -638,12 +638,12 @@ header {
 }
 
 .discount-img--bigger {
-    max-width: 133.5rem;
+    max-width: 1335px;
 }
 
 /* ///////////////////////////////// CATEGORY_MAIN ///////////////////////////////// */
 .section-category-main {
-    max-width: 132rem;
+    max-width: 1320px;
     padding: 0 6.4rem 6.4rem;
     margin: 0 auto;
 }
@@ -682,7 +682,7 @@ header {
 /* ///////////////////////////////// POPULAR ///////////////////////////////// */
 
 .section-popular {
-    max-width: 133.5rem;
+    max-width: 1335px;
     padding: 3.2rem 3.2rem 2.4rem 0;
     margin: 1rem auto 0;
     background-color: #fff;
@@ -717,7 +717,7 @@ header {
 /* ///////////////////////////////// PREF ///////////////////////////////// */
 
 .section-pref {
-    max-width: 133.5rem;
+    max-width: 1335px;
     padding: 2.4rem 0 2.4rem;
     margin: 1rem auto 0;
     background-color: #fff;
@@ -782,7 +782,7 @@ header {
 /* ///////////////////////////////// MOST SALES ///////////////////////////////// */
 
 .section-best-selling {
-    max-width: 133.5rem;
+    max-width: 1335px;
     padding: 2.4rem 0 1.2rem;
     margin: 1.4rem auto 1.4rem;
     background-color: #fff;
@@ -833,7 +833,7 @@ header {
 
 /* ///////////////////////////////// SELECTED ///////////////////////////////// */
 .section-selected {
-    max-width: 133.5rem;
+    max-width: 1335px;
     padding: 2.4rem 0 2.4rem;
     margin: 1rem auto 1.6rem;
     background-color: #fff;
@@ -916,7 +916,7 @@ header {
 
 /* ///////////////////////////////// MAG ///////////////////////////////// */
 .section-mag {
-    max-width: 133.5rem;
+    max-width: 1335px;
     padding: 2.4rem 0;
     margin: 1rem auto 2.4rem;
 }
@@ -977,6 +977,8 @@ header {
 /* ///////////////////////////////// FOOTER ///////////////////////////////// */
 .section-footer {
     padding: 4.8rem 3.2rem 0;
+    max-width: 1550px;
+    margin: 0 auto;
 }
 
 .footer-logo-btn {
