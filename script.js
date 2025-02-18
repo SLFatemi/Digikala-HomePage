@@ -35,3 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
     traverseAndConvertTextNodes(document.body);
     updatePseudoElementContent();
 });
+
+let headerlogoEl = document.querySelector(".header-logo")
+let bodyEl = document.querySelector("body")
+headerlogoEl.addEventListener('click', function () {
+    bodyEl.classList.toggle("dark")
+})

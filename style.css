@@ -13,7 +13,7 @@
     --btn-bg: #FEF6EF;
     --ion-icon: #fff;
     --scroll-thumb: #bcbcbc;
-    --product-icon-color: #19BFD3;
+    --product-icon-color: #15c2d6;
     --highlight-color: #F57F17;
 }
 
@@ -33,6 +33,17 @@ body.dark {
     --border-color: #3f3f3f;
     --text-black: #8b8b8b;
     --text-main: #b0b0b0;
+    --scroll-thumb: #4a4a4a;
+    --product-icon-color: #4d939c;
+
+    .amazing-product-img, .category-img, .popular-brand-img, .pref-product-img, .best-selling-product-img, .selected-product-img {
+        mix-blend-mode: multiply;
+    }
+
+    .footer-product-policy-img {
+        mix-blend-mode: exclusion;
+    }
+
 }
 
 body {
@@ -380,7 +391,7 @@ header {
 .promote-icon {
     height: 3.4rem;
     width: 3.4rem;
-    color: #fff;
+    color: var(--bg-main);
     padding: 1rem;
     border-radius: 50%;
     background: var(--primary-color);
@@ -514,7 +525,7 @@ header {
 
 .amazing-product-off {
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--bg-main);
     padding: 0.2rem 0.8rem;
     font-weight: 600;
     border-radius: 100px;
@@ -527,7 +538,7 @@ header {
 
 .amazing-product-price-old {
     font-size: 1.3rem;
-    color: #bcbcbc;
+    color: var(--text-muted);
     text-decoration: line-through;
     margin-right: 4.5rem;
     margin-top: -1.5rem;
@@ -589,7 +600,7 @@ header {
 
 .discount-fresh-off {
     font-size: 1.4rem;
-    color: #fff;
+    color: var(--bg-main);
     border-radius: 16px;
     font-weight: 600;
     background-color: var(--secondary-color);
@@ -919,7 +930,7 @@ header {
 
 .selected-product-off {
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--bg-main);
     padding: 0.2rem 0.8rem;
     font-weight: 600;
     border-radius: 100px;
@@ -933,7 +944,7 @@ header {
 
 .selected-product-price-old {
     font-size: 1.2rem;
-    color: #bcbcbc;
+    color: var(--text-muted);
     text-decoration: line-through;
     margin-right: 12rem;
     margin-top: -1rem;
@@ -1130,7 +1141,7 @@ header {
 
 .footer-column-btn {
     background-color: var(--border-color);
-    color: #fff;
+    color: var(--bg-main);
     font-size: 1.4rem;
     width: 5.4rem;
     border-radius: 6px;
