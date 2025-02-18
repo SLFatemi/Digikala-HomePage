@@ -34,10 +34,16 @@ main {
 }
 
 html {
+    scroll-behavior: smooth;
     overflow-x: hidden;
     font-size: 62.5%;
     direction: rtl;
     font-family: DevelopixIRANYekanX, sans-serif;
+}
+
+a:visited, a:link {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* ///////////////////////////////// FLOAT ///////////////////////////////// */
@@ -603,6 +609,7 @@ header {
 
 .discount-fresh-btn-text {
     display: flex;
+    color: #029A49;
     gap: 1.2rem;
     align-items: center;
 }
